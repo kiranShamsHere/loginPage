@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #094c72;
+    background-image: linear-gradient(315deg, #094c72 0%, #0e0e0e 74%); */
+    background: url(../../images/backroundImage2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 420px;
+    /* background-color: purple; */
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background-color: salmon; */
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 48px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0 0 0 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.wrapper .btn:hover {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.wrapper .registeration-link {
+    font-size: 14.5px;
+    text-align: center;
+    /* margin-top: 20px; */
+    margin: 20px 0 15px;
+}
+
+.registeration-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registeration-link p a:hover {
+    text-decoration: underline;
+}
